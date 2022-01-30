@@ -1,7 +1,6 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://sourceforge.net/projects/phplist/files/phplist/3.6.6/phplist-3.6.6.zip/download
+SOURCE_SUM=4921972b2646febca665675bebafa19dfce763328046bd58b26fe8cb12ab12e4
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
 SOURCE_EXTRACT=true
