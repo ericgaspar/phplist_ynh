@@ -1,6 +1,6 @@
-SOURCE_URL=https://sourceforge.net/projects/phplist/files/phplist/3.6.6/phplist-3.6.6.zip/download
-SOURCE_SUM=4921972b2646febca665675bebafa19dfce763328046bd58b26fe8cb12ab12e4
+SOURCE_URL=https://github.com/phpList/phplist3/archive/refs/tags/v3.6.6.tar.gz
+SOURCE_SUM=31fe849fe90a4c0671a1ef28dbdcf24dd3cb9b56eb2d2a027b5ee61ad48d69b5
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
+SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_EXTRACT=true
