@@ -97,25 +97,11 @@ ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
 ynh_add_fpm_config
 
 #=================================================
-# CREATE DATA DIRECTORY
-#=================================================
-ynh_script_progression --message="Creating a data directory..." --time --weight=1
-
-datadir=/home/yunohost.app/$app
-ynh_app_setting_set --app=$app --key=datadir --value=$datadir
-
-mkdir -p $datadir
-
-chmod 750 "$datadir"
-chmod -R o-rwx "$datadir"
-chown -R $app:www-data "$datadir"
-
-#=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --time --weight=1
 
-ynh_add_config --template="../conf/config.php" --destination="$final_path/lists/config/config.php"
+ynh_add_config --template="../conf/config.php" --destination="$final_path/public_html/lists/config/config.php"
 
 chmod 400 "$final_path/lists/config/config.php"
 chown $app:$app "$final_path/lists/config/config.php"
