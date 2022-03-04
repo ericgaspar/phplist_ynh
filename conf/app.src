@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/phpList/phplist3/archive/refs/tags/v3.6.6.tar.gz
-SOURCE_SUM=31fe849fe90a4c0671a1ef28dbdcf24dd3cb9b56eb2d2a027b5ee61ad48d69b5
+SOURCE_URL=https://github.com/phpList/phplist3/archive/refs/tags/v3.6.7.tar.gz
+SOURCE_SUM=c2e2b2b1b67fc3e6b12ae68075f2575e6590b8872a3ead8842a9bd573f647368
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

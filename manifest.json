@@ -3,16 +3,16 @@
     "id": "phplist",
     "packaging_format": 1,
     "description": {
-        "en": "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "en": "Newsletter and email marketing software",
+        "fr": ""
     },
-    "version": "3.6.6~ynh1",
-    "url": "https://example.com",
+    "version": "3.6.7~ynh1",
+    "url": "https://www.phplist.org/",
     "upstream": {
         "license": "free",
-        "website": "https://example.com",
+        "website": "https://www.phplist.org/",
         "demo": "https://demo.example.com",
-        "admindoc": "https://yunohost.org/packaging_apps",
+        "admindoc": "https://www.phplist.org/manual/books/phplist-manual/",
         "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/phpList/phplist3"
     },
